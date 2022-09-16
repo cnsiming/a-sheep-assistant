@@ -10,7 +10,7 @@ import os
 # 以下参数根据自己的需要进行修改：
 SYS_CONFIG = {
     # 获取到的header中t值,必须修改为自己的
-    "header_t": "eyxxxxxxxxx.xxxx",
+    "header_t": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTQyNzQ1MTYsIm5iZiI6MTY2MzE3MjMxNiwiaWF0IjoxNjYzMTcwNTE2LCJqdGkiOiJDTTpjYXRfbWF0Y2g6bHQxMjM0NTYiLCJvcGVuX2lkIjoiIiwidWlkIjo1MTQ2NDkyMiwiZGVidWciOiIiLCJsYW5nIjoiIn0.FAbYj-K44H0dfuQAk-RlPdU9X4tRo9GPqclnkQlxK3g",
     # 获取到的header中的user-agent值
     "header_user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.27(0x18001b36) NetType/WIFI Language/zh_CN",
     # 设定的完成耗时，单位s，默认-1随机表示随机生成1s~1h之内的随机数，设置为正数则为固定
